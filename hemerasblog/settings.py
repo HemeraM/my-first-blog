@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'oct=^%e8&*$4m554fjxedggve1wj@%c&#z4hth3g0+8e6v)i%6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [hemera.pythonanywhere.com]
 
 
 # Application definition
