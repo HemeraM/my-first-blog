@@ -11,7 +11,7 @@
         <div class="jumbotron">
             <h2>{{ post.title }}</h2>
             <h4>Написано: {{ post.created_date }}</h4>
-            <p>{{ post.get_short_text|linebreaks }}</p>
+            <p>{{ post.get_short_text|linebreaks|safe }}</p>
             <p><a href='posts/{{ post.id }}' class="btn btn-primary btn-lg">Подробнее</a></p>
         </div>
     {% empty %}
